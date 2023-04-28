@@ -1506,6 +1506,13 @@ section {
   color: #ffc451;
 }
 
+
+#footer .footer-top .footer-newsletter {
+  display: hidden;
+  opacity: 0;
+
+}
+
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
