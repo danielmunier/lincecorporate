@@ -26,7 +26,7 @@ form.addEventListener('submit', async (event) => {
   // enviar a requisição para a API
   const formData = new FormData(form);
   try {
-    const response = await fetch('http://localhost:4000', {
+    const response = await fetch('https://lince.onrender.com/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
