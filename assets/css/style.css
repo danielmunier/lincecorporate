@@ -88,13 +88,13 @@ h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #ffc451;
+  border: 6px solid #ffd277;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 0.5s linear infinite;
 }
 
 @keyframes animate-preloader {
